@@ -1,0 +1,12 @@
+# Ignora i file binari compilati e gli eseguibili
+*.o
+*.exe
+main_prog
+
+# Ignora le cartelle di build o temporanee
+build/
+obj/
+
+# Ignora i file generati da ROOT o salvataggi di workspace
+*.root
+.DS_Store
